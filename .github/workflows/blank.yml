@@ -2,7 +2,8 @@ name: Crawl hydrodata(hbsl) schedulely
 
 on:
   push:
-    - main:
+    branches:
+      - main:
     
 jobs:
   crawl-hbsl:
