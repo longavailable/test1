@@ -16,4 +16,4 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: token ${{ secrets.TEST_TOKEN }}" \
           --data '{"event_type": "datong"}' \
-          https://api.github.com/repos/longavailable/test1/dispatches
+          https://api.github.com/repos/longavailable/test2/dispatches
