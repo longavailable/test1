@@ -9,8 +9,11 @@ jobs:
   crawl-hbsl:
     runs-on: ubuntu-latest
     steps:
-
-      - name: checkout
+    
+      - name: checkout scripts repo
+        uses: actions/checkout@v3
+        
+      - name: curl api
         run: |
           curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
